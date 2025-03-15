@@ -34,7 +34,7 @@ export default function DemocracySection() {
         
         <div>
           <p className="max-w-2xl py-6 text-2xl lg:text-3xl">
-            With a predefined constitution, decisions are made efficiently and transparently, ensuring that every member's voice is heard. <span className="opacity-40">Empower Your Organization with AI-Driven Autonomous Management and Governance.</span>
+            With a predefined constitution, decisions are made efficiently and transparently, ensuring that every member&apos;s voice is heard. <span className="opacity-40">Empower Your Organization with AI-Driven Autonomous Management and Governance.</span>
           </p>
           <Link href="/contact" className="btn btn-primary">
             Read Whitepaper

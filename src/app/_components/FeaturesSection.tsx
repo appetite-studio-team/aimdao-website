@@ -1,9 +1,6 @@
 import FeatureCard from "./FeatureCard";
 import {
   PiFileLock,
-  PiGpsFixFill,
-  PiHandshake,
-  PiShieldCheck,
   PiStamp,
   PiStrategy,
 } from "react-icons/pi";
