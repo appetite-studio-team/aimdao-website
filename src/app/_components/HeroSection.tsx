@@ -31,11 +31,7 @@ export default function HeroSection() {
             <a href="#feature-section" className="btn btn-primary mt-8">
               Learn more
             </a>
-            <a
-              target="_blank"
-              href="/whitepaper"
-              className="btn mt-8 bg-neutral-200"
-            >
+            <a href="/whitepaper" className="btn mt-8 bg-neutral-200">
               Whitepaper
             </a>
           </div>

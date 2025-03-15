@@ -40,7 +40,7 @@ export default function DemocracySection() {
               Governance.
             </span>
           </p>
-          <a href="/whitepaper" target="_blank" className="btn btn-primary">
+          <a href="/whitepaper" className="btn btn-primary">
             Read Whitepaper
           </a>
         </div>
