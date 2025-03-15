@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function DemocracySection() {
   return (
@@ -41,9 +40,9 @@ export default function DemocracySection() {
               Governance.
             </span>
           </p>
-          <Link href="/contact" className="btn btn-primary">
+          <a href="/whitepaper.md" target="_blank" className="btn btn-primary">
             Read Whitepaper
-          </Link>
+          </a>
         </div>
       </div>
     </div>

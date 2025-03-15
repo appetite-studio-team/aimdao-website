@@ -28,8 +28,16 @@ export default function HeroSection() {
             Ai-managed DAOs
           </h1>
           <div className="flex gap-2">
-            <button className="btn btn-primary mt-8">Learn more</button>
-            <button className="btn mt-8 bg-neutral-200">Whitepaper</button>
+            <a href="#feature-section" className="btn btn-primary mt-8">
+              Learn more
+            </a>
+            <a
+              target="_blank"
+              href="/whitepaper.md"
+              className="btn mt-8 bg-neutral-200"
+            >
+              Whitepaper
+            </a>
           </div>
         </div>
       </div>
