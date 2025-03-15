@@ -11,8 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "AIMDAO",
-  description:
-    "Ai-managed DAOs for the future",
+  description: "Ai-managed DAOs for the future",
 };
 
 export default function RootLayout({
@@ -25,9 +24,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-title" content="AIMDAO" />
       </head>
-      <body
-        className={`${inter.variable} antialiased`}
-      >
+      <body className={`${inter.variable} antialiased`}>
         <Header />
         {children}
         <Footer />

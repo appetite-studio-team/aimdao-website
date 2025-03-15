@@ -17,7 +17,7 @@ export default function Header() {
       </div>
       <div className="navbar-end p-4">
         <a target="_blank" href="https://x.com/appetite_studio" className="btn">
-          <span className="items-center gap-2 flex">
+          <span className="flex items-center gap-2">
             <FaXTwitter /> Follow us
           </span>
         </a>

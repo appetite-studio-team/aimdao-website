@@ -1,22 +1,22 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function DemocracySection() {
   return (
-    <div className="hero bg-neutral-950 text-white py-12">
+    <div className="hero bg-neutral-950 py-12 text-white">
       <div className="hero-content flex-col gap-6 lg:flex-row lg:gap-12">
         <div className="relative">
           <Image
-            className="rounded-lg shadow-2xl h-120 object-cover"
+            className="h-120 rounded-lg object-cover shadow-2xl"
             src="/assets/painting-democracy.jpg"
             height={600}
             width={400}
             alt="Democracy painting"
           />
-          
+
           {/* Circular text overlay */}
-          <div className="absolute bottom-4 -right-4 w-32 h-32 bg-neutral-950 rounded-full flex items-center justify-center shadow-lg">
+          <div className="absolute -right-4 bottom-4 flex h-32 w-32 items-center justify-center rounded-full bg-neutral-950 shadow-lg">
             <svg viewBox="0 0 100 100" width="100%" height="100%">
               <path
                 id="circlePath"
@@ -31,10 +31,15 @@ export default function DemocracySection() {
             </svg>
           </div>
         </div>
-        
+
         <div>
           <p className="max-w-2xl py-6 text-2xl lg:text-3xl">
-            With a predefined constitution, decisions are made efficiently and transparently, ensuring that every member&apos;s voice is heard. <span className="opacity-40">Empower Your Organization with AI-Driven Autonomous Management and Governance.</span>
+            With a predefined constitution, decisions are made efficiently and
+            transparently, ensuring that every member&apos;s voice is heard.{" "}
+            <span className="opacity-40">
+              Empower Your Organization with AI-Driven Autonomous Management and
+              Governance.
+            </span>
           </p>
           <Link href="/contact" className="btn btn-primary">
             Read Whitepaper
