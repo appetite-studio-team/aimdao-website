@@ -33,7 +33,7 @@ export default function HeroSection() {
             </a>
             <a
               target="_blank"
-              href="/whitepaper.md"
+              href="/whitepaper"
               className="btn mt-8 bg-neutral-200"
             >
               Whitepaper

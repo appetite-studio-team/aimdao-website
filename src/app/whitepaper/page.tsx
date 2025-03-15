@@ -1,4 +1,16 @@
-# AIMDAO: Constitutional AI Governance for the Web3 Era
+import Link from "next/link";
+import { PiArrowLeft } from "react-icons/pi";
+import Markdown from "react-markdown";
+
+export default function whitepaperPage() {
+  return (
+    <div className="prose m-auto max-w-5xl px-4 py-20">
+      <Link className="btn btn-ghost mb-8" href="/">
+        <PiArrowLeft /> Go back to home
+      </Link>
+      <Markdown>
+        {`
+# AIMDAO Whitepaper: AI Governance for the Web3 Era
 
 ## Executive Summary
 
@@ -333,3 +345,9 @@ For more information about AIMDAO
 
 - Website: [aimdao.xyz](https://aimdao.xyz)
 - Twitter: [@appetite_studio](https://x.com/appetite_studio)
+
+            `}
+      </Markdown>
+    </div>
+  );
+}
