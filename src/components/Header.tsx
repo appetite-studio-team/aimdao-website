@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -19,9 +19,9 @@ export default function Header() {
         </Link>
       </div>
       <div className="navbar-end p-4">
-        <a target="_blank" href="https://x.com/appetite_studio" className="btn">
+        <a target="_blank" href="https://aimdao-alpha.netlify.app" className="btn">
           <span className="flex items-center gap-2">
-            <FaXTwitter /> Follow us
+            <FaExternalLinkAlt /> Open App (alpha)
           </span>
         </a>
       </div>
