@@ -21,7 +21,7 @@ export default function Header() {
       <div className="navbar-end p-4">
         <a target="_blank" href="https://aimdao-alpha.netlify.app" className="btn">
           <span className="flex items-center gap-2">
-            <FaExternalLinkAlt /> Open App (alpha)
+            <FaExternalLinkAlt /> Try app (alpha)
           </span>
         </a>
       </div>
