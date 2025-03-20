@@ -3,7 +3,7 @@ import { PiFileLock, PiStamp, PiStrategy } from "react-icons/pi";
 
 export default function FeaturesSection() {
   return (
-    <section className="pt-8 pb-12">
+    <section className="pt-8 pb-12" id="features-section">
       <div className="mx-auto max-w-6xl px-8">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <FeatureCard
