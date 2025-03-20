@@ -24,7 +24,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-title" content="AIMDAO" />
       </head>
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} scroll-smooth antialiased`}>
         <Header />
         {children}
         <Footer />
