@@ -15,7 +15,7 @@ export default function DemocracySection() {
           />
 
           {/* Circular text overlay */}
-          <div className="absolute -right-4 bottom-4 flex h-32 w-32 items-center justify-center rounded-full bg-neutral-950 shadow-lg">
+          <div className="absolute -right-4 bottom-4 flex h-32 w-32 animate-spin items-center justify-center rounded-full bg-neutral-950 shadow-lg [animation-duration:_20s]">
             <svg viewBox="0 0 100 100" width="100%" height="100%">
               <path
                 id="circlePath"
