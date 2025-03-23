@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function DemocracySection() {
   return (
-    <div className="hero bg-neutral-950 py-12 text-white">
+    <div className="hero overflow-clip bg-neutral-950 py-12 text-white">
       <div className="hero-content flex-col gap-6 lg:flex-row lg:gap-12">
         <div className="relative">
           <Image
