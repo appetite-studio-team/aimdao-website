@@ -20,11 +20,8 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative z-10 max-w-xl">
-          {/* Glow effect container */}
-          <div className="absolute inset-0 -z-10 scale-105 animate-pulse rounded-full bg-gradient-to-r from-purple-500 via-red-500 to-blue-500 opacity-70 blur-xl"></div>
-          {/* Video container */}
-          <div className="relative z-10 overflow-hidden shadow-md">
+        <div className="relative z-10 mt-4 max-w-xl lg:mt-0 lg:p-8">
+          <div className="relative z-10 overflow-hidden rounded shadow-md">
             <div className="bg-base-300 absolute top-0 right-0 left-0 h-px w-[2000px]" />
             <video
               preload="auto"
@@ -34,7 +31,7 @@ export default function HeroSection() {
               playsInline
               className="flip aspect-square w-full max-w-5xl -scale-x-100 object-cover"
             >
-              <source src="/assets/hero-video.mp4" type="video/mp4" />
+              <source src="/assets/hero-video-2.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

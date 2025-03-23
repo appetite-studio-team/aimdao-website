@@ -19,11 +19,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="navbar-end p-4">
-        <a
-          target="_blank"
-          href="https://app.aimdao.xyz"
-          className="btn"
-        >
+        <a target="_blank" href="https://app.aimdao.xyz" className="btn">
           <span className="flex items-center gap-2">
             <FaExternalLinkAlt /> Try app (alpha)
           </span>
