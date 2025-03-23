@@ -8,7 +8,7 @@ export default function Header() {
       <div className="navbar-start">
         <Link
           href="/"
-          className="bg-opacity-50 rounded-full bg-white px-4 py-2 backdrop-blur-3xl"
+          className="bg-opacity-50 rounded bg-white px-4 py-2 backdrop-blur-3xl"
         >
           <Image
             src="/assets/aimdao-logo-full.svg"
